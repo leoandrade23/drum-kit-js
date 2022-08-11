@@ -28,7 +28,7 @@ const composer = () => {
 };
 
 const tocarSom = (letra) => {
-  const audio = new Audio(`_assets/_media/${jSons[letra]}`);
+  const audio = new Audio(`assets/media/${jSons[letra]}`);
   audio.play();
 };
 
